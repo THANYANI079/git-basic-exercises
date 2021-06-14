@@ -1,0 +1,243 @@
+    1  #!/bin/bash
+    2  sudo apt-get update && sudo apt-get upgrade
+    3  sudo apt-get install build-essential cmake unzip pkg-config
+    4  sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
+    5  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+    6  sudo apt-get install libxvidcore-dev libx264-dev
+    7  sudo apt-get install libgtk-3-dev
+    8  sudo apt-get install libcanberra-gtk*
+    9  sudo apt-get install libatlas-base-dev gfortran
+   10  sudo apt-get install python3-dev
+   11  sudo pip3 install virtualenv virtualenvwrapper
+   12  cd '/d/work space/git-basic-exercises'
+   13  git remote add origin https://github.com/THANYANI079/git-basic-exercises.git
+   14  git remote -v
+   15  git push origin master
+   16  git push origin main
+   17  '/d/work space/git-basic-exercises'
+   18  cd '/d/work space/git-basic-exercises'
+   19  cd log
+   20  git log
+   21  git remote add origin https://github.com/THANYANI079/git-basic-exercises.git
+   22  git branch -M main
+   23  git push -u origin main
+   24  git log
+   25  git config
+   26  git branch -m master main
+   27  git branch
+   28  git mkdir git-basic-exercises
+   29  mkdir git-basic-exercises
+   30  mkdir /c/Users/RIBALANG/Desktop/git-basic-exercises
+   31  git rm git-basic-exercises
+   32  git branch master
+   33  git checkout master
+   34  mkdir git-basic-exercises
+   35  mkdir '/d/work space/git-basic-exercises'
+   36  pwd
+   37  ls -F
+   38  cd '/d/work space/git-basic-exercises'
+   39  mkdir git-basic-exercises
+   40  ls -a
+   41  git init
+   42  git -a
+   43  git branch master main
+   44  git branch -m master main
+   45  git -a
+   46  git branches
+   47  git branch
+   48  git status
+   49  touch README.md
+   50  git log
+   51  git add README.md
+   52  git status
+   53  git rm --cached README.md
+   54  git status
+   55  git add README.md
+   56  git commit -m "initial commit"
+   57  git log
+   58  git log
+   59  git log
+   60  nano README.md
+   61  cat README.md
+   62  git status
+   63  git commit -m "second commit"
+   64  git add README.md
+   65  git status
+   66  git commit -m "second commit"
+   67  nano README.md
+   68  git add README.md
+   69  git commit -m "third commit"
+   70  git log
+   71  git checkout b8f1973ab15978c4a8e7a9d6b7ca1daa4852a252
+   72  cat README.md
+   73  git checkout main
+   74  cat README.md
+   75  git branch
+   76  git branch milkshake-flavours
+   77  git branch
+   78  git checkout milkshake-flavours
+   79  git branch
+   80  nano milkshakes.md
+   81  git status
+   82  git add milkshakes.md
+   83  git commit -m "added initial flavours"
+   84  git log
+   85  git checkout main
+   86  git branch history
+   87  git log
+   88  git branch
+   89  history > history.txt
+   90  git status
+   91  git add history.txt
+   92  git commit
+   93  git commit "added history"
+   94  git status
+   95  git restore --staged history.txt
+   96  git status
+   97  git add history.txt
+   98  git commit "added history"
+   99  git log
+  100  git checkout-flavours
+  101  git checkout milkshake-flavours
+  102  git rm history.txt
+  103  git rm -f history.txt
+  104  git checkout main
+  105  git log
+  106  history > history.txt
+  107  git status
+  108  git add history.txt
+  109  git commit -m "added history"
+  110  git log
+  111  git checkout milkshake-flavours
+  112  git log
+  113  nano README.md
+  114  git status
+  115  git add README.md
+  116  git commit -m "random readme changes"
+  117  git checkout history
+  118  cat README.md
+  119  rm README.md
+  120  echo "booya" >README.md
+  121  git status
+  122  git add README.md
+  123  git commit -m "rewrote readme"
+  124  git checkout main
+  125  ls
+  126  git log
+  127  git checkout milkshake-flavours
+  128  ls
+  129  git log
+  130  git checkout history
+  131  ls
+  132  git log
+  133  git checkout main
+  134  ls
+  135  rm -f history.txt
+  136  ls
+  137  git checkout history
+  138  history > history.txt
+  139  git add history.txt
+  140  git commit -m "added history"
+  141  ls
+  142  git log
+  143  git checkout main
+  144  git merge milkshake-flavours
+  145  ls
+  146  git log
+  147  git merge history
+  148  git status
+  149  git add history.txt
+  150  git status
+  151  git add README.md
+  152  git status
+  153  git commit -m "fixing merge conflict"
+  154  git checkout history
+  155  log
+  156  git log
+  157  git checkout milkshake-flavours
+  158  git log
+  159  git remote add origin https://github.com/THANYANI079/git-basic-exercises.git
+  160  git branch -M main
+  161  git remote add origin https://github.com/THANYANI079/git-basic-exercises.git
+  162  git branch -M main
+  163  git push -u origin main
+  164  cd '/d/work space/git-basic-exercises'
+  165  git checkout main
+  166  git init
+  167  git remote add origin https://github.com/THANYANI079/git-basic-exercises.git
+  168  git add.
+  169  git push -m origin main
+  170  git push -u origin main
+  171  echo "# rivalan" >> README.md
+  172  git init
+  173  git add README.md
+  174  git commit -m "first commit"
+  175  git branch -M main
+  176  git remote add origin https://github.com/THANYANI079/rivalan.git
+  177  git push -u origin main
+  178  cd '/d/work space/git-basic-exercises'
+  179  git status
+  180  git log
+  181  git remote add origin https://github.com/THANYANI079/git-basic-exercises.git
+  182  git branch -M main
+  183  git push -u origin main
+  184  echo "# rivalan" >> README.md
+  185  git init
+  186  git add README.md
+  187  git commit -m "first commit"
+  188  git branch -M main
+  189  git remote add origin git@github.com:THANYANI079/rivalan.git
+  190  git push -u origin main
+  191  cd '/d/work space/git-basic-exercises'
+  192  git remote add origin https://github.com/THANYANI079/git-basic-exercises.git
+  193  git branch -M main
+  194  git push -u origin main
+  195  git branch
+  196  git push history
+  197  git checkout history
+  198  git push -u origin history
+  199  cd '/d/work space/git-basic-exercises'
+  200  mkdir git-basic-exercises
+  201  cd '/d/work space/git-basic-exercises/git-basic-exercises'
+  202  ls -a
+  203  git init
+  204  ls a
+  205  ls -a
+  206  git status
+  207  git branch master main
+  208  git branch -m master main
+  209  touch README.md
+  210  ls -a
+  211  git status
+  212  git log
+  213  git add README.md
+  214  git status
+  215  git commit -m "initial commit"
+  216  git log
+  217  nano README.md
+  218  cat README.md
+  219  git status
+  220  git add README.md
+  221  git commit -m "second commit"
+  222  nano README.md
+  223  git add README.md
+  224  git commit -m "third commit"
+  225  git log
+  226  git checkout main
+  227  git branch
+  228  git branch milkshake-flavours
+  229  git branch
+  230  git checkout milkshake-flavours
+  231  nano milkshakes.md
+  232  git status
+  233  git log
+  234  git add milkshakes.md
+  235  git commit -m "added initial flavours"
+  236  git status
+  237  git log
+  238  git checkout main
+  239  git branch history
+  240  git checkout history
+  241  git log
+  242  git branch
+  243  history > history.txt
